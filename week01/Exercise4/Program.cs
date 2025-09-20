@@ -12,7 +12,7 @@ class Program
         int larguest = 0;
         int smallest;
 
-        List<int> numbers = new List<int>();
+        List<int> numbers = new();
         Console.WriteLine("Enter a list of numbers, type 0 when finished.");
 
         while (true)

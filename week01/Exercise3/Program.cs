@@ -7,7 +7,7 @@ class Program
      {
         string response = "yes";
         int number = 0;
-        Random randomGenerator = new Random();
+        Random randomGenerator = new();
         int magicNumber = randomGenerator.Next(1, 5);
 
         while (response == "yes")
