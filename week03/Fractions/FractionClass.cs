@@ -11,8 +11,6 @@ public class FractionClass
         _top = 1;
         _bottom = 1;
     }
-
-
     
     public FractionClass(int top)
     {
