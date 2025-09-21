@@ -1,12 +1,7 @@
 
 using System;
 
-public interface IJournal
-{
-    void ShowList();
-}
-
-public class Journal : IJournal
+public class Journal  
 {
     public List<Entry> _entries = new List<Entry>();
 
@@ -16,7 +11,7 @@ public class Journal : IJournal
         {
             
              journal.DisplayEntry();
-              
+             Console.WriteLine("");
         }
     }
 
